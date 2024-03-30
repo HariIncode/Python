@@ -5,19 +5,27 @@ print(dir(bike))
 
 print(bike.sort())
 print(bike)
+
 bike.reverse()
 print(bike)
+
 bike.append("Royal Enfild")
 print(bike)
+
 bike.pop(-1)
 print(bike)
+
 print(bike.count("BMW"))
+
 bike.insert(3,"Apache")
 print(bike)
+
 bike.remove("Apache")
 print(bike)
+
 bike.extend(car)
 print(bike)
+
 bike.clear()
 print(bike)
 
@@ -35,20 +43,20 @@ print(sorted(department))
 emp = {'Hari' : 2201,'Jeeva' : 2705,'Prasath' : 2904,'Abinesh' : 3201} # Dictionary
 print(emp['Jeeva'])
 
-# emp_info = {
-#     'emp1':
-#         {'Name' : 'Hari',
-#         'Id' : 2201},
-#     'emp2':
-#         {'Name' : 'Jeeva',
-#         'Id' : 2705},
-#     'emp3' :
-#         {'Name' : 'Prasath',
-#         'Id' : 2904},
-#     'emp4' :
-#         {'Name' : 'Abinesh',
-#         'Id' : 3201}
-# }       #Nested Dictionary
+emp_info = {
+    'emp1':
+        {'Name' : 'Hari',
+        'Id' : 2201},
+    'emp2':
+        {'Name' : 'Jeeva',
+        'Id' : 2705},
+    'emp3' :
+        {'Name' : 'Prasath',
+        'Id' : 2904},
+    'emp4' :
+        {'Name' : 'Abinesh',
+        'Id' : 3201}
+}       #Nested Dictionary
 
 print(emp_info['emp1']['Name'])
 print(emp.get('Jeeva'))
