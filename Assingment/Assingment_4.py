@@ -1,4 +1,4 @@
-class Stringstring_object :
+class String :
 
     def __init__(self,input_string):
         self.input_string = input_string
@@ -35,7 +35,7 @@ class Stringstring_object :
 
 
 
-string_object = Stringstring_object("Hello World")
+string_object = String("Hello World")
 
 output_string = string_object.count_vowels()
 print("No of Vowels in the given String :",output_string)
