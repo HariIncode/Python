@@ -25,8 +25,8 @@ class Stringstring_object :
         try:
             swap = self.input_string.replace(args[0],args[1])
             return swap
-        except IndexError :
-            print("Minimum two arguments must be passed !")
+        except IndexError as E:
+            print("Minimum two arguments must be passed----->",E)
 
     def remove_character(self,key,replace=""):
         altered_string = self.input_string.replace(key,replace)
